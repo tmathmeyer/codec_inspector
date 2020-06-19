@@ -25,4 +25,5 @@ this tool kinda does that.
  - Make a better UI for this, like some hacked together frontend or webserver
    or something so that the frames can be expanded and looked at easily
  - More commands
+ - support things besides webm/vp9
  - Check it into chrome and expose it in devtools - lol.
