@@ -1,0 +1,27 @@
+
+
+executable("codec_inspector_service") {
+  sources = [
+    "codec_inspector_service.cc",
+    "accepted_codecs.cc",
+    "accepted_codecs.h",
+    "vp9_struct_logger.cc",
+    "vp9_struct_logger.h",
+  ]
+
+  configs += [
+    # TODO(crbug.com/167187): Fix size_t to int truncations.
+    "//build/config/compiler:no_size_t_to_int_warning",
+    "//media:subcomponent_config",
+  ]
+
+  deps = [
+    "//base",
+    "//media:media",
+    "//media/gpu",
+    "//media/gpu:common",
+    "//third_party/ffmpeg:ffmpeg_features",
+    "//third_party/ffmpeg:ffmpeg_internal",
+    "//third_party/ffmpeg:ffmpeg",
+  ]
+}

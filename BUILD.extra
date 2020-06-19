@@ -1,0 +1,5 @@
+group("__media_tools__") {
+  deps = [
+    "//media/tools/codec_inspector:codec_inspector_service",
+  ]
+}
