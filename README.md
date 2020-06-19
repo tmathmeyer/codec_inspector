@@ -4,6 +4,9 @@ file and found ffprobe to be too unspecific? do you need to see literal bitstrea
 data like this: http://downloads.webmproject.org/docs/vp9/vp9-bitstream_superframe-and-uncompressed-header_v1.0.pdf
 this tool kinda does that.
 
+## See a demo:
+https://files.tedm.io/codec_inspector_service.mp4
+
 ## Installing & Building
 1. You need a chromium checkout, the whole thing. Including all the ninja & gn stuff.
 2. You need python3 to run the scripts. 
